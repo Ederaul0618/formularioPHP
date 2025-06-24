@@ -1,0 +1,30 @@
+/*para crear nueva columna en un lugar especifico*/
+ALTER TABLE triage.registros
+ADD COLUMN Ingreso VARCHAR(255) DEFAULT ''AFTER pregunta_9;
+
+ALTER TABLE triage.registros
+ADD COLUMN hospital VARCHAR(255) DEFAULT ''AFTER Ingreso;
+
+/*crea la tabla en sql server*/
+CREATE TABLE triage.registros (
+    nomina VARCHAR(50),
+    nombre VARCHAR(150),
+    cliente VARCHAR(150),
+    sexo VARCHAR(20),
+    edad INT,
+    medico VARCHAR(150),
+    puntaje int,
+    fecha DATETIME,
+    pregunta_1 INT,
+    pregunta_2 INT,
+    pregunta_3 INT,
+    pregunta_4 INT,
+    observaciones_4 VARCHAR(255),
+    pregunta_5 INT,
+    pregunta_6 INT,
+	  pregunta_7 INT,
+    observaciones_7 VARCHAR(255),
+	  pregunta_8 INT,
+	  pregunta_9 INT,
+    observaciones VARCHAR(255)
+	)
