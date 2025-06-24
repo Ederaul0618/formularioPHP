@@ -1,8 +1,9 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "abc.123.";
-$dbname = "triage";
+$user = "root";       # Cambia si usas otro usuario
+$pass = "abc.123.";   # Agrega tu contraseña si aplica
+$dbname = "triage";   # Asegúrate que esta base exista
+
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
