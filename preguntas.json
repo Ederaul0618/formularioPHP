@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "texto": "¿Hay sintomas de alarma? (disnea, convulsiones, bajo nivel de conciencia, erupción cutánea de inicio brusco)"
+  },
+  {
+    "id": 2,
+    "texto": "¿Padecimiento de inicio súbito?"
+  },
+  {
+    "id": 3,
+    "texto": "¿Hay datos de dolor incapacitante?"
+  },
+  {
+    "id": 4,
+    "texto": "¿El malestar cede con la ingesta de medicamentos?"
+  },
+  {
+    "id": 5,
+    "texto": "¿Tiene síntomas asociados? (hiporexia, astenia, irritabilidad, postración en cama, fiebre, o asociados al padecimiento reportado)"
+  },
+  {
+    "id": 6,
+    "texto": "¿DH con antecedentes de importancia para padecimiento actual? (diabetes, insuficiencia cardiaca, EPOC, insuficiencia renal)"
+  },
+  {
+    "id": 7,
+    "texto": "¿Ha recibido atención médica previa por el mismo padecimiento?"
+  },
+  {
+    "id": 8,
+    "texto": "¿Hay mejoría de la sintomatología con el tratamiento previo?"
+  },
+   {
+    "id": 9,
+    "texto": "¿Signos de Alarma (Frecuencia cardíaca < 40 lpm ó > 130 lpm,Frecuencia respiratoria < 8 rpm ó >30 rpm,Tensión arterial sistólica < 90 mmhg,Saturación de o2 porpulsioximetría < 94%)?"
+  }
+  
+  
+]
